@@ -1,0 +1,91 @@
+/* Upper decorations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#topbar1{
+	background-color:#262626;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -9;
+	height: 254px;
+	width: 100%;
+}
+
+
+#banner{
+	background-image:url('../images/TowerLogo_275height.png');
+	background-size: 552px 275px;
+	background-repeat:no-repeat;
+	background-position:left top;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+	text-align: right;
+	opacity: 1;
+}
+
+/*#toplinks{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    z-index: 15;
+    width: 250px;
+}
+
+#toplinks a{
+    color: gray;
+    text-decoration: none;
+}
+
+#toplinks a:hover, a:active {
+    color: white;
+    text-decoration: none;*/
+}
+
+
+#topbar2{ /* NOT USED */
+/*	background-color:#BB8900;*/ /* UCR Yellow */
+/*	background-color:#6F8135;*/ /* UCR Green */
+	background-color:#C1BBAB;
+/*	background-color:rgba(51, 51, 51, .5);*/
+/*	background-color:#2D6CC0;*/
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	z-index: -9;
+	height: 31px; /* to match menubar */
+	width: 100%;
+}
+
+.container {
+  top: 275px; }
+ 
+ 
+/* TABLE */
+.refresher{
+    background-color:#e6f7ff;
+}
+
+.research{
+    background-color:#e6ffcc;
+}
+
+.teaching{
+    background-color:#ffe6f2;
+}
+
+.lab{
+    background-color:#ffffe6;
+}
+
+/*262626*/
