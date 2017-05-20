@@ -8,7 +8,7 @@
 	top: 0px;
 	left: 0px;
 	z-index: -9;
-	height: 254px;
+	height: 279px;
 	width: 100%;
 }
 
@@ -21,7 +21,7 @@
 	margin: 0;
 	padding: 0;
 	position: absolute;
-	top: 0px;
+	top: 25px;
 	left: 0px;
 	z-index: 10;
 	height: 100%;
@@ -68,24 +68,101 @@
 }
 
 .container {
-  top: 275px; }
+/*  top: 275px;*/
+    top: 300px;
+}
  
  
 /* TABLE */
 .refresher{
-    background-color:#e6f7ff;
+/*    background-color:#e6f7ff;*/
+    background-color:rgba(204, 255, 255, .2);
 }
 
 .research{
-    background-color:#e6ffcc;
+/*    background-color:#e6ffcc;*/
+    background-color:rgba(217, 255, 204, .4);
 }
 
 .teaching{
-    background-color:#ffe6f2;
+/*    background-color:#ffe6f2;*/
+    background-color:rgba(255, 153, 153, .15);
 }
 
 .lab{
-    background-color:#ffffe6;
+/*    background-color:#ffffe6;*/
+    background-color:rgba(255, 255, 153, .3);
 }
+
+/* MENU */
+/*http://stackoverflow.com/questions/15901522/applying-css-styles-to-all-elements-inside-a-div*/
+
+
+/*    div.myMenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    div.myMenu li {
+        float: left;
+    }
+
+    div.myMenu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    div.myMenu li a:hover {
+        background-color: #111;
+    }*/
+
+
+#mmyMenu{
+	background-color:#262626;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+/*    height: 20px;*/
+	left: 0px;
+	z-index: 15;
+	width: 100%;
+}
+
+    #mmyMenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #262626;
+        height: 25px;
+    }
+    
+    #mmyMenu li {
+        float: left;
+        margin-bottom: 0rem;
+    }
+    
+    #mmyMenu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 10px;
+        text-decoration: none;
+    }
+    
+    #mmyMenu li a:hover {
+        background-color: #111;
+    }
+
+
+
+
 
 /*262626*/
